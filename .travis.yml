@@ -10,13 +10,6 @@ services:
 virtualenv:
     system_site_packages: true
 
-env:
-    global:
-        - secure: "VbsOfpODqRoTugL4S3hzgAnWvIbAAA5bjupM2elcPQKEmAF9/77i6daFxr9MtoFcfG+segs7hBkWgk1Dn9gr84prYRHiJE202nOCWf9oetoRcqCUopK5Thx0ZlTcsdI3k248BOdirrb9TtYBOXOEYoKresBpzALxiMjuQj860LM="
-        - secure: "O+c7JBkYSxW4wbOXj8PXPBBGvkCaKH6ITHEVMNS0Tb5lzcMsGOB33bw4u/9aFyRnRQrHX1zI+blP2XMd2Nh35WU+zOMb7okaaUyOwvVVUufeWTXPnirIv+bCYKFkL1RGZC2yFOAjvvZ2fF78qbFS/S/3APm7H5UKlwkvaJZn6GM="
-        - secure: "OW8Qu5muZaEDXxD4LGs5Xk1RDDAzsZo8+vjVAyBupO2CAYAfyiUzpsH7c1rk/GTKKDaj4JDQG4SL0Q1bwur/V3WpPBVgt7gXyppuun+1eFATQ2gfs4ZV7JSGxd3J2KpwoQi+h4N5CCle61CJmUEzC7QTZrAzDsVdIUd0ogv2shQ="
-        - secure: "b+8hebfE0KhbSdYVB8MUtm+JQs6l7kqWnN6zj5W5nJuTB8IXWALYv8mWuRpELrZTduANFCR1JlqF8GnKrhajsrXhAwLlTOJltarJmKN9xEJAQ7o1ZnFmY550kkbfS3uwOihiJ8fXGWkFZGz3uvO2dVOtf1h6dnqXbJftoYvzM/c="
-
 before_install:
     - sudo apt-get install -qq libevent-dev
     - gem install compass
